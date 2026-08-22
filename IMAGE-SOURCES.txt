@@ -1,0 +1,26 @@
+IMAGE SOURCES / NGUỒN ẢNH
+
+1) assets/images/hero.webp và gallery-ride.webp
+Nguồn gốc: Pexels — “Motorbike rider traveling through rice fields in Quy Nhơn, Vietnam at sunrise”
+Tác giả: Vũ Bụi
+Trang nguồn: https://www.pexels.com/photo/rural-life-in-vietnam-motorbike-ride-through-fields-30228296/
+Giấy phép: Pexels License / Free to use.
+Ghi chú: đã tải về và chuyển WebP; gallery-ride.webp là crop từ cùng ảnh.
+
+2) assets/images/gallery-pasy.webp
+Nguồn gốc: Wikimedia Commons — “Pa Sĩ Waterfall, Mang Den Vietnam.jpg”
+Tác giả: Weendang
+Trang nguồn: https://commons.wikimedia.org/wiki/File:Pa_Sĩ_Waterfall,_Mang_Den_Vietnam.jpg
+Giấy phép: CC BY-SA 3.0
+Ghi chú: đã tải phiên bản 960px, chuyển WebP, không thay đổi nội dung ngoài tối ưu định dạng/kích thước.
+
+3) assets/images/gallery-cherry.webp
+Nguồn gốc: Pexels — ảnh Măng Đen mùa hoa, photo ID 30622485
+Tác giả theo Pexels: Duy Nguyen
+Nguồn ảnh trực tiếp đã tải qua Pexels CDN.
+Trang tìm kiếm liên quan: https://www.pexels.com/search/du%20lịch%20măng%20đen/
+Giấy phép: Pexels License / Free to use.
+Ghi chú: đã chuyển WebP và tối ưu kích thước.
+
+Logo:
+Logo thật chưa được người dùng đính kèm trong cuộc trò chuyện hiện tại. Website đang dùng wordmark chữ “MĐ” bằng HTML/CSS, không phải logo thương hiệu. Khi có logo thật, xem README.txt để thay thế.
