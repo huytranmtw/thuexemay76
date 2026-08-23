@@ -1,4 +1,3 @@
-const menuBtn=document.querySelector('.menu-toggle');const nav=document.querySelector('.main-nav');
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("booking-form");
   const status = document.getElementById("form-status");
