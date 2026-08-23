@@ -1,1 +1,2305 @@
-abcascasl;kcpaskc;kasckas;kd;la
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>Chính Sách Bảo Mật | Anh Huy Cho Thuê Xe Máy Măng Đen</title>
+
+    <meta name="description"
+          content="Chính sách bảo mật thông tin khách hàng của Anh Huy Cho Thuê Xe Máy Măng Đen.">
+
+    <meta name="robots" content="index, follow">
+
+    <style>
+
+        /* =====================================================
+           1. BIẾN MÀU THEO LOGO ANH HUY
+        ===================================================== */
+
+        :root {
+
+            --green: #123B32;
+            --green-dark: #0D2C26;
+            --green-light: #1B5144;
+
+            --gold: #D6A84F;
+            --gold-light: #E5C477;
+            --gold-dark: #B98A32;
+
+            --cream: #F8F6F0;
+            --cream-dark: #F1EDE3;
+
+            --white: #FFFFFF;
+
+            --text: #26332F;
+            --text-light: #66736F;
+
+            --border: #E5E1D8;
+
+            --shadow:
+                0 8px 30px rgba(18, 59, 50, 0.08);
+
+            --radius: 16px;
+        }
+
+
+        /* =====================================================
+           2. RESET
+        ===================================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Arial,
+                sans-serif;
+
+            background: var(--cream);
+
+            color: var(--text);
+
+            line-height: 1.7;
+
+            -webkit-font-smoothing: antialiased;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: inherit;
+        }
+
+
+        /* =====================================================
+           3. HEADER
+        ===================================================== */
+
+        .privacy-header {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--green-dark),
+                    var(--green)
+                );
+
+            color: var(--white);
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-bottom:
+                3px solid var(--gold);
+        }
+
+
+        /* hiệu ứng nền */
+
+        .privacy-header::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 260px;
+            height: 260px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(214, 168, 79, 0.08);
+
+            top: -150px;
+            right: -80px;
+        }
+
+
+        .privacy-header::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 180px;
+            height: 180px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(255,255,255,0.03);
+
+            bottom: -100px;
+            left: -60px;
+        }
+
+
+        .header-inner {
+
+            width: min(
+                1180px,
+                calc(100% - 30px)
+            );
+
+            margin: auto;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+
+        /* =====================================================
+           4. TOP BAR
+        ===================================================== */
+
+        .top-bar {
+
+            min-height: 76px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            gap: 20px;
+        }
+
+
+        .brand-logo {
+
+            display: flex;
+
+            align-items: center;
+
+            text-decoration: none;
+        }
+
+
+        .brand-logo img {
+
+            display: block;
+
+            width: 210px;
+
+            height: auto;
+
+            object-fit: contain;
+        }
+
+
+        .back-home {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            padding: 9px 15px;
+
+            border:
+                1px solid
+                rgba(214,168,79,0.55);
+
+            border-radius: 30px;
+
+            color: var(--gold-light);
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+            font-weight: 600;
+
+            transition: 0.25s;
+        }
+
+
+        .back-home:hover {
+
+            background:
+                rgba(214,168,79,0.12);
+
+            border-color:
+                var(--gold);
+        }
+
+
+        /* =====================================================
+           5. HERO
+        ===================================================== */
+
+        .hero-content {
+
+            padding:
+                55px 0 80px;
+        }
+
+
+        .hero-label {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            color: var(--gold-light);
+
+            font-size: 14px;
+
+            font-weight: 700;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1.2px;
+
+            margin-bottom: 15px;
+        }
+
+
+        .hero-label::before {
+
+            content: "";
+
+            width: 28px;
+            height: 2px;
+
+            background: var(--gold);
+        }
+
+
+        .hero-content h1 {
+
+            max-width: 800px;
+
+            font-size:
+                clamp(32px, 5vw, 52px);
+
+            line-height: 1.15;
+
+            font-weight: 800;
+
+            margin-bottom: 18px;
+        }
+
+
+        .hero-content h1 span {
+
+            color: var(--gold-light);
+        }
+
+
+        .hero-description {
+
+            max-width: 720px;
+
+            color:
+                rgba(255,255,255,0.78);
+
+            font-size: 16px;
+
+            line-height: 1.8;
+
+            margin-bottom: 20px;
+        }
+
+
+        .update-date {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 8px;
+
+            padding: 8px 14px;
+
+            border-radius: 30px;
+
+            background:
+                rgba(214,168,79,0.12);
+
+            border:
+                1px solid
+                rgba(214,168,79,0.35);
+
+            color: var(--gold-light);
+
+            font-size: 13px;
+
+            font-weight: 600;
+        }
+
+
+        /* =====================================================
+           6. MAIN
+        ===================================================== */
+
+        .privacy-wrapper {
+
+            width:
+                min(
+                    1180px,
+                    calc(100% - 30px)
+                );
+
+            margin:
+                -35px auto 60px;
+
+            position: relative;
+
+            z-index: 5;
+        }
+
+
+        .privacy-layout {
+
+            display: grid;
+
+            grid-template-columns:
+                270px minmax(0, 1fr);
+
+            gap: 25px;
+
+            align-items: start;
+        }
+
+
+        /* =====================================================
+           7. SIDEBAR DESKTOP
+        ===================================================== */
+
+        .privacy-sidebar {
+
+            background: var(--white);
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                var(--radius);
+
+            padding: 22px;
+
+            box-shadow:
+                var(--shadow);
+
+            position: sticky;
+
+            top: 20px;
+        }
+
+
+        .sidebar-title {
+
+            color: var(--green);
+
+            font-size: 16px;
+
+            font-weight: 800;
+
+            padding-bottom: 15px;
+
+            margin-bottom: 8px;
+
+            border-bottom:
+                2px solid
+                var(--gold);
+        }
+
+
+        .privacy-sidebar ul {
+
+            list-style: none;
+        }
+
+
+        .privacy-sidebar li {
+
+            border-bottom:
+                1px solid
+                #F0EEE8;
+        }
+
+
+        .privacy-sidebar li:last-child {
+
+            border-bottom: none;
+        }
+
+
+        .privacy-sidebar a {
+
+            display: block;
+
+            padding: 9px 3px;
+
+            color: var(--text-light);
+
+            text-decoration: none;
+
+            font-size: 13px;
+
+            line-height: 1.45;
+
+            transition: 0.2s;
+        }
+
+
+        .privacy-sidebar a:hover {
+
+            color: var(--green);
+
+            padding-left: 8px;
+        }
+
+
+        /* =====================================================
+           8. CONTENT
+        ===================================================== */
+
+        .privacy-content {
+
+            background: var(--white);
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                var(--radius);
+
+            padding:
+                clamp(25px, 4vw, 48px);
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .privacy-intro {
+
+            display: flex;
+
+            align-items: flex-start;
+
+            gap: 15px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #F8F3E7,
+                    #FFFDF8
+                );
+
+            border:
+                1px solid
+                rgba(214,168,79,0.35);
+
+            border-left:
+                4px solid
+                var(--gold);
+
+            border-radius: 12px;
+
+            padding: 20px;
+
+            margin-bottom: 35px;
+
+            color: var(--text-light);
+        }
+
+
+        .privacy-intro strong {
+
+            color: var(--green);
+        }
+
+
+        /* =====================================================
+           9. SECTION
+        ===================================================== */
+
+        .privacy-section {
+
+            scroll-margin-top: 25px;
+
+            padding-bottom: 30px;
+
+            margin-bottom: 30px;
+
+            border-bottom:
+                1px solid
+                var(--border);
+        }
+
+
+        .privacy-section:last-child {
+
+            border-bottom: none;
+
+            margin-bottom: 0;
+
+            padding-bottom: 0;
+        }
+
+
+        .privacy-section h2 {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            color: var(--green);
+
+            font-size: 22px;
+
+            line-height: 1.35;
+
+            margin-bottom: 15px;
+        }
+
+
+        .section-number {
+
+            flex:
+                0 0 38px;
+
+            width: 38px;
+            height: 38px;
+
+            border-radius: 11px;
+
+            background:
+                var(--green);
+
+            color: var(--gold-light);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 13px;
+
+            font-weight: 800;
+
+            box-shadow:
+                0 4px 10px
+                rgba(18,59,50,0.15);
+        }
+
+
+        .privacy-section p {
+
+            color: var(--text-light);
+
+            margin-bottom: 13px;
+        }
+
+
+        .privacy-section ul {
+
+            margin:
+                12px 0 16px;
+
+            padding-left: 22px;
+        }
+
+
+        .privacy-section li {
+
+            color: var(--text-light);
+
+            margin-bottom: 7px;
+
+            padding-left: 3px;
+        }
+
+
+        .privacy-section li::marker {
+
+            color: var(--gold-dark);
+        }
+
+
+        .privacy-section strong {
+
+            color: var(--green);
+        }
+
+
+        /* =====================================================
+           10. HIGHLIGHT
+        ===================================================== */
+
+        .privacy-highlight {
+
+            background:
+                #F5F8F6;
+
+            border:
+                1px solid
+                rgba(18,59,50,0.15);
+
+            border-left:
+                4px solid
+                var(--green);
+
+            border-radius: 10px;
+
+            padding: 17px 18px;
+
+            margin:
+                15px 0;
+        }
+
+
+        .privacy-highlight strong {
+
+            color: var(--green);
+        }
+
+
+        /* =====================================================
+           11. CONTACT
+        ===================================================== */
+
+        .contact-box {
+
+            background:
+                var(--green);
+
+            color: var(--white);
+
+            border-radius:
+                15px;
+
+            padding:
+                25px;
+
+            margin-top: 20px;
+
+            position: relative;
+
+            overflow: hidden;
+        }
+
+
+        .contact-box::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 180px;
+            height: 180px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(214,168,79,0.08);
+
+            right: -70px;
+            bottom: -100px;
+        }
+
+
+        .contact-box h3 {
+
+            color: var(--gold-light);
+
+            font-size: 20px;
+
+            margin-bottom: 18px;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+
+        .contact-item {
+
+            display: flex;
+
+            gap: 10px;
+
+            margin-bottom: 11px;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+
+        .contact-label {
+
+            min-width: 85px;
+
+            color:
+                var(--gold-light);
+
+            font-weight: 700;
+        }
+
+
+        .contact-item span:last-child {
+
+            color:
+                rgba(255,255,255,0.88);
+        }
+
+
+        .contact-item a {
+
+            color: var(--white);
+
+            text-decoration: none;
+
+            font-weight: 600;
+        }
+
+
+        .contact-item a:hover {
+
+            color: var(--gold-light);
+        }
+
+
+        /* =====================================================
+           12. FOOTER
+        ===================================================== */
+
+        .privacy-footer {
+
+            text-align: center;
+
+            color:
+                #89948F;
+
+            font-size: 13px;
+
+            margin-top: 28px;
+        }
+
+
+        /* =====================================================
+           13. MOBILE ACCORDION
+        ===================================================== */
+
+        .mobile-section-title {
+
+            display: none;
+        }
+
+
+        .accordion-arrow {
+
+            display: none;
+        }
+
+
+        /* =====================================================
+           14. MOBILE
+        ===================================================== */
+
+        @media (max-width: 900px) {
+
+            .privacy-layout {
+
+                grid-template-columns: 1fr;
+            }
+
+            .privacy-sidebar {
+
+                display: none;
+            }
+
+            .mobile-section-title {
+
+                display: flex;
+
+                align-items: center;
+
+                justify-content: space-between;
+
+                margin-bottom: 15px;
+
+                color: var(--green);
+
+                font-size: 20px;
+
+                font-weight: 800;
+            }
+
+
+            .mobile-section-title::after {
+
+                content: "";
+
+                width: 35px;
+
+                height: 2px;
+
+                background: var(--gold);
+            }
+
+
+            .privacy-section {
+
+                background:
+                    #FFFFFF;
+
+                border:
+                    1px solid
+                    var(--border);
+
+                border-radius: 13px;
+
+                margin-bottom: 10px;
+
+                padding: 0;
+
+                overflow: hidden;
+
+                box-shadow:
+                    0 3px 12px
+                    rgba(18,59,50,0.04);
+            }
+
+
+            .privacy-section h2 {
+
+                margin: 0;
+
+                padding: 15px;
+
+                font-size: 16px;
+
+                cursor: pointer;
+
+                user-select: none;
+
+                gap: 10px;
+
+                position: relative;
+
+                padding-right: 45px;
+            }
+
+
+            .section-number {
+
+                width: 34px;
+                height: 34px;
+
+                flex-basis: 34px;
+
+                border-radius: 50%;
+
+                font-size: 12px;
+            }
+
+
+            .accordion-arrow {
+
+                display: block;
+
+                position: absolute;
+
+                right: 16px;
+
+                top: 50%;
+
+                transform:
+                    translateY(-50%)
+                    rotate(0deg);
+
+                width: 8px;
+                height: 8px;
+
+                border-right:
+                    2px solid
+                    var(--green);
+
+                border-bottom:
+                    2px solid
+                    var(--green);
+
+                transition:
+                    transform 0.25s ease;
+            }
+
+
+            .privacy-section.active
+            .accordion-arrow {
+
+                transform:
+                    translateY(-70%)
+                    rotate(225deg);
+            }
+
+
+            .privacy-section p,
+            .privacy-section ul,
+            .privacy-highlight,
+            .contact-box {
+
+                display: none;
+            }
+
+
+            .privacy-section.active p,
+            .privacy-section.active ul,
+            .privacy-section.active .privacy-highlight,
+            .privacy-section.active .contact-box {
+
+                display: block;
+            }
+
+
+            .privacy-section.active p {
+
+                padding:
+                    0 16px;
+
+                margin-bottom: 13px;
+            }
+
+
+            .privacy-section.active ul {
+
+                padding:
+                    0 30px 0 38px;
+
+                margin-top: 0;
+            }
+
+
+            .privacy-section.active .privacy-highlight {
+
+                margin:
+                    0 16px 16px;
+            }
+
+
+            .privacy-section.active .contact-box {
+
+                margin:
+                    0 16px 16px;
+            }
+
+
+            .privacy-section.active {
+
+                border-color:
+                    rgba(214,168,79,0.55);
+            }
+
+
+            .privacy-section.active h2 {
+
+                background:
+                    #F8F5EC;
+
+                border-bottom:
+                    1px solid
+                    var(--border);
+            }
+        }
+
+
+        /* =====================================================
+           15. MOBILE NHỎ
+        ===================================================== */
+
+        @media (max-width: 600px) {
+
+            body {
+
+                font-size: 15px;
+
+                padding-bottom: 20px;
+            }
+
+
+            .header-inner {
+
+                width:
+                    calc(100% - 24px);
+            }
+
+
+            .top-bar {
+
+                min-height: 64px;
+            }
+
+
+            .brand-logo img {
+
+                width: 150px;
+            }
+
+
+            .back-home {
+
+                padding:
+                    7px 11px;
+
+                font-size: 12px;
+            }
+
+
+            .hero-content {
+
+                padding:
+                    38px 0 65px;
+            }
+
+
+            .hero-label {
+
+                font-size: 11px;
+
+                letter-spacing:
+                    0.8px;
+            }
+
+
+            .hero-content h1 {
+
+                font-size:
+                    34px;
+
+                max-width:
+                    320px;
+
+                margin-bottom:
+                    12px;
+            }
+
+
+            .hero-description {
+
+                font-size:
+                    14px;
+
+                line-height:
+                    1.65;
+            }
+
+
+            .update-date {
+
+                font-size:
+                    12px;
+
+                padding:
+                    7px 11px;
+            }
+
+
+            .privacy-wrapper {
+
+                width:
+                    calc(100% - 16px);
+
+                margin:
+                    -30px auto 40px;
+            }
+
+
+            .privacy-content {
+
+                padding:
+                    16px;
+
+                border-radius:
+                    14px;
+            }
+
+
+            .privacy-intro {
+
+                padding:
+                    15px;
+
+                margin-bottom:
+                    22px;
+
+                font-size:
+                    14px;
+
+                line-height:
+                    1.65;
+            }
+
+
+            .mobile-section-title {
+
+                font-size:
+                    18px;
+
+                margin-bottom:
+                    12px;
+            }
+
+
+            .privacy-section h2 {
+
+                font-size:
+                    15px;
+
+                line-height:
+                    1.35;
+
+                padding:
+                    13px;
+
+                min-height:
+                    62px;
+            }
+
+
+            .section-number {
+
+                width:
+                    32px;
+
+                height:
+                    32px;
+
+                flex-basis:
+                    32px;
+            }
+
+
+            .privacy-section.active p,
+            .privacy-section.active li {
+
+                font-size:
+                    14px;
+
+                line-height:
+                    1.7;
+            }
+
+
+            .contact-box {
+
+                padding:
+                    18px;
+            }
+
+
+            .contact-box h3 {
+
+                font-size:
+                    17px;
+            }
+
+
+            .contact-item {
+
+                display:
+                    block;
+
+                font-size:
+                    14px;
+
+                margin-bottom:
+                    12px;
+            }
+
+
+            .contact-label {
+
+                display:
+                    block;
+
+                margin-bottom:
+                    2px;
+            }
+
+
+            .privacy-footer {
+
+                font-size:
+                    12px;
+
+                padding:
+                    0 10px;
+            }
+        }
+
+
+        /* =====================================================
+           16. MOBILE RẤT NHỎ
+        ===================================================== */
+
+        @media (max-width: 380px) {
+
+            .brand-logo img {
+
+                width:
+                    135px;
+            }
+
+
+            .back-home {
+
+                font-size:
+                    11px;
+
+                padding:
+                    6px 9px;
+            }
+
+
+            .hero-content h1 {
+
+                font-size:
+                    30px;
+            }
+
+
+            .privacy-section h2 {
+
+                font-size:
+                    14px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="privacy-header">
+
+    <div class="header-inner">
+
+        <div class="top-bar">
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="brand-logo"
+                aria-label="Anh Huy Cho Thuê Xe Máy Măng Đen"
+            >
+
+                <img
+                    src="assets/images/logo.png"
+                    alt="Anh Huy Cho Thuê Xe Máy Măng Đen"
+                >
+
+            </a>
+
+
+            <!-- QUAY LẠI -->
+
+            <a
+                href="index.html"
+                class="back-home"
+            >
+                ← Trang chủ
+            </a>
+
+        </div>
+
+
+        <!-- HERO -->
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                ANH HUY · CHO THUÊ XE MÁY MĂNG ĐEN
+            </div>
+
+            <h1>
+                Chính Sách
+                <span>Bảo Mật</span>
+            </h1>
+
+            <p class="hero-description">
+
+                Chính sách này giải thích cách
+                <strong>Cho Thuê Xe Máy Măng Đen Anh Huy</strong>
+                thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân
+                của khách hàng.
+
+            </p>
+
+            <div class="update-date">
+
+                🗓
+                Cập nhật lần cuối: 23/08/2026
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="privacy-wrapper">
+
+    <div class="privacy-layout">
+
+
+        <!-- =================================================
+             SIDEBAR DESKTOP
+        ================================================== -->
+
+        <aside class="privacy-sidebar">
+
+            <div class="sidebar-title">
+                Nội dung chính sách
+            </div>
+
+            <ul>
+
+                <li>
+                    <a href="#section-1">
+                        01. Mục đích của chính sách
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-2">
+                        02. Thông tin thu thập
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-3">
+                        03. Mục đích sử dụng
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-4">
+                        04. Chia sẻ thông tin
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-5">
+                        05. Bảo mật thông tin
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-6">
+                        06. Thời gian lưu trữ
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-7">
+                        07. Cookie
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-8">
+                        08. Website bên thứ ba
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-9">
+                        09. Quyền khách hàng
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-10">
+                        10. Trách nhiệm khách hàng
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-11">
+                        11. Thay đổi chính sách
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#section-12">
+                        12. Thông tin liên hệ
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+
+
+        <!-- =================================================
+             CONTENT
+        ================================================== -->
+
+        <article class="privacy-content">
+
+
+            <!-- INTRO -->
+
+            <div class="privacy-intro">
+
+                🔐
+
+                <div>
+
+                    Chính sách này giải thích cách
+                    <strong>
+                        Cho Thuê Xe Máy Măng Đen Anh Huy
+                    </strong>
+                    thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân
+                    của khách hàng khi truy cập website hoặc sử dụng dịch vụ.
+
+                </div>
+
+            </div>
+
+
+            <div class="mobile-section-title">
+
+                Nội dung chính sách
+
+            </div>
+
+
+            <!-- =================================================
+                 01
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-1"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        01
+                    </span>
+
+                    Mục đích của chính sách bảo mật
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Chính sách bảo mật này nhằm thông báo cho khách hàng
+                    về cách website <strong>Cho Thuê Xe Máy Măng Đen Anh Huy</strong>
+                    thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân
+                    khi khách hàng truy cập website, liên hệ tư vấn hoặc
+                    sử dụng dịch vụ cho thuê xe máy tại Măng Đen.
+                </p>
+
+                <p>
+                    Chúng tôi tôn trọng quyền riêng tư của khách hàng
+                    và cam kết bảo mật thông tin trong phạm vi cho phép
+                    của pháp luật.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 02
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-2"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        02
+                    </span>
+
+                    Thông tin chúng tôi có thể thu thập
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Khi khách hàng sử dụng website hoặc liên hệ với chúng tôi,
+                    một số thông tin có thể được thu thập, bao gồm:
+                </p>
+
+                <ul>
+
+                    <li>Họ và tên.</li>
+
+                    <li>Số điện thoại.</li>
+
+                    <li>Địa chỉ email.</li>
+
+                    <li>
+                        Thông tin về thời gian nhận và trả xe.
+                    </li>
+
+                    <li>
+                        Số lượng xe và loại xe khách hàng quan tâm.
+                    </li>
+
+                    <li>
+                        Thông tin cần thiết để phục vụ việc đặt xe và giao nhận xe.
+                    </li>
+
+                    <li>
+                        Nội dung khách hàng gửi qua biểu mẫu liên hệ,
+                        điện thoại, Zalo hoặc các kênh liên lạc khác.
+                    </li>
+
+                </ul>
+
+                <p>
+                    Website cũng có thể tự động ghi nhận một số thông tin kỹ thuật
+                    như địa chỉ IP, loại thiết bị, trình duyệt, thời gian truy cập
+                    và các trang khách hàng đã xem nhằm phục vụ việc vận hành
+                    và cải thiện website.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 03
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-3"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+                    Mục đích sử dụng thông tin
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Thông tin khách hàng được sử dụng cho các mục đích sau:
+                </p>
+
+                <ul>
+
+                    <li>
+                        Tiếp nhận và xác nhận yêu cầu thuê xe.
+                    </li>
+
+                    <li>
+                        Liên hệ tư vấn, báo giá và hỗ trợ khách hàng.
+                    </li>
+
+                    <li>
+                        Sắp xếp xe, thời gian nhận và trả xe.
+                    </li>
+
+                    <li>
+                        Hỗ trợ giao nhận xe khi khách hàng có yêu cầu.
+                    </li>
+
+                    <li>
+                        Xác nhận hoặc xử lý các vấn đề liên quan đến đơn thuê xe.
+                    </li>
+
+                    <li>
+                        Cải thiện chất lượng dịch vụ và trải nghiệm trên website.
+                    </li>
+
+                    <li>
+                        Phát hiện, ngăn chặn các hành vi gian lận
+                        hoặc sử dụng dịch vụ không đúng mục đích.
+                    </li>
+
+                    <li>
+                        Thực hiện các nghĩa vụ pháp lý khi cơ quan
+                        có thẩm quyền yêu cầu.
+                    </li>
+
+                </ul>
+
+                <p>
+                    Chúng tôi không sử dụng thông tin khách hàng cho những mục đích
+                    không phù hợp với nội dung đã thông báo, trừ trường hợp được
+                    khách hàng đồng ý hoặc pháp luật có quy định khác.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 04
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-4"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        04
+                    </span>
+
+                    Chia sẻ thông tin khách hàng
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <div class="privacy-highlight">
+
+                    <strong>Cam kết:</strong>
+
+                    Chúng tôi không bán, trao đổi hoặc cho thuê
+                    thông tin cá nhân của khách hàng cho bên thứ ba
+                    vì mục đích thương mại.
+
+                </div>
+
+                <p>
+                    Thông tin có thể được cung cấp cho bên liên quan trong
+                    những trường hợp cần thiết để thực hiện dịch vụ,
+                    chẳng hạn như đơn vị hỗ trợ giao nhận hoặc đơn vị
+                    cung cấp giải pháp kỹ thuật cho website.
+                </p>
+
+                <p>
+                    Thông tin cũng có thể được cung cấp khi:
+                </p>
+
+                <ul>
+
+                    <li>
+                        Khách hàng đồng ý.
+                    </li>
+
+                    <li>
+                        Việc cung cấp là cần thiết để thực hiện dịch vụ
+                        mà khách hàng yêu cầu.
+                    </li>
+
+                    <li>
+                        Có yêu cầu hợp pháp từ cơ quan nhà nước
+                        có thẩm quyền.
+                    </li>
+
+                    <li>
+                        Cần bảo vệ quyền, tài sản hoặc an toàn của website,
+                        doanh nghiệp và khách hàng.
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <!-- =================================================
+                 05
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-5"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        05
+                    </span>
+
+                    Bảo mật thông tin
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Chúng tôi áp dụng các biện pháp phù hợp để hạn chế nguy cơ
+                    mất mát, truy cập trái phép, tiết lộ, thay đổi hoặc sử dụng
+                    sai mục đích thông tin khách hàng.
+                </p>
+
+                <p>
+                    Tuy nhiên, khách hàng cần hiểu rằng không có phương thức
+                    truyền tải hoặc lưu trữ dữ liệu trên Internet nào có thể
+                    đảm bảo an toàn tuyệt đối.
+                </p>
+
+                <p>
+                    Trong trường hợp phát hiện sự cố liên quan đến thông tin cá nhân
+                    có nguy cơ ảnh hưởng đến khách hàng, chúng tôi sẽ thực hiện các
+                    biện pháp xử lý phù hợp theo quy định hiện hành.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 06
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-6"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        06
+                    </span>
+
+                    Thời gian lưu trữ thông tin
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Thông tin khách hàng được lưu trữ trong khoảng thời gian
+                    cần thiết để phục vụ mục đích cung cấp dịch vụ,
+                    chăm sóc khách hàng, giải quyết các vấn đề liên quan
+                    đến giao dịch hoặc đáp ứng yêu cầu pháp lý.
+                </p>
+
+                <p>
+                    Khi thông tin không còn cần thiết hoặc khách hàng có yêu cầu
+                    hợp lệ, chúng tôi có thể tiến hành xóa, hủy hoặc ẩn thông tin
+                    theo quy định và điều kiện thực tế.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 07
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-7"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        07
+                    </span>
+
+                    Cookie và dữ liệu kỹ thuật
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Website có thể sử dụng cookie hoặc các công nghệ tương tự để:
+                </p>
+
+                <ul>
+
+                    <li>
+                        Ghi nhớ một số lựa chọn của khách hàng.
+                    </li>
+
+                    <li>
+                        Phân tích lượt truy cập và hiệu quả hoạt động của website.
+                    </li>
+
+                    <li>
+                        Cải thiện tốc độ, giao diện và trải nghiệm người dùng.
+                    </li>
+
+                    <li>
+                        Hỗ trợ hoạt động quảng cáo hoặc tiếp thị nếu website
+                        có triển khai.
+                    </li>
+
+                </ul>
+
+                <p>
+                    Khách hàng có thể điều chỉnh hoặc tắt cookie thông qua
+                    cài đặt của trình duyệt. Tuy nhiên, việc tắt cookie có thể
+                    khiến một số chức năng của website hoạt động không đầy đủ.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 08
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-8"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        08
+                    </span>
+
+                    Liên kết đến website bên thứ ba
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Website có thể chứa liên kết đến các nền tảng hoặc website
+                    bên thứ ba, chẳng hạn như Google Maps, Zalo, Facebook
+                    hoặc các dịch vụ trực tuyến khác.
+                </p>
+
+                <p>
+                    Chính sách bảo mật này chỉ áp dụng cho website
+                    <strong>Cho Thuê Xe Máy Măng Đen Anh Huy</strong>.
+                    Khi khách hàng truy cập các website hoặc nền tảng bên thứ ba,
+                    việc thu thập và sử dụng thông tin sẽ tuân theo chính sách
+                    riêng của các đơn vị đó.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 09
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-9"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        09
+                    </span>
+
+                    Quyền của khách hàng
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Khách hàng có quyền:
+                </p>
+
+                <ul>
+
+                    <li>
+                        Yêu cầu biết thông tin cá nhân của mình đang được
+                        chúng tôi lưu trữ và sử dụng như thế nào.
+                    </li>
+
+                    <li>
+                        Yêu cầu chỉnh sửa thông tin không chính xác.
+                    </li>
+
+                    <li>
+                        Yêu cầu xóa thông tin trong phạm vi pháp luật cho phép.
+                    </li>
+
+                    <li>
+                        Rút lại sự đồng ý đối với việc sử dụng thông tin
+                        trong những trường hợp áp dụng.
+                    </li>
+
+                    <li>
+                        Khiếu nại hoặc phản ánh nếu cho rằng thông tin cá nhân
+                        của mình được sử dụng không phù hợp.
+                    </li>
+
+                </ul>
+
+                <p>
+                    Để thực hiện các quyền trên, khách hàng có thể liên hệ
+                    với chúng tôi thông qua thông tin liên hệ được công bố
+                    trên website.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 10
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-10"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        10
+                    </span>
+
+                    Trách nhiệm của khách hàng
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Khách hàng có trách nhiệm cung cấp thông tin chính xác
+                    khi đăng ký hoặc đặt dịch vụ.
+                </p>
+
+                <p>
+                    Khách hàng không nên cung cấp thông tin của người khác
+                    cho website nếu chưa được người đó cho phép,
+                    trừ trường hợp pháp luật có quy định khác.
+                </p>
+
+                <p>
+                    Khách hàng cũng cần chủ động bảo vệ các thông tin bảo mật
+                    liên quan đến tài khoản, thiết bị và các phương thức
+                    liên lạc của mình.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 11
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-11"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        11
+                    </span>
+
+                    Thay đổi chính sách bảo mật
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Chính sách bảo mật có thể được cập nhật hoặc điều chỉnh
+                    khi cần thiết để phù hợp với hoạt động của website,
+                    dịch vụ và các quy định pháp luật hiện hành.
+                </p>
+
+                <p>
+                    Phiên bản mới sẽ được đăng tải trên website và có thể
+                    được áp dụng kể từ thời điểm công bố, trừ khi có
+                    thông báo khác.
+                </p>
+
+            </section>
+
+
+            <!-- =================================================
+                 12
+            ================================================== -->
+
+            <section
+                class="privacy-section"
+                id="section-12"
+            >
+
+                <h2>
+
+                    <span class="section-number">
+                        12
+                    </span>
+
+                    Thông tin liên hệ
+
+                    <span class="accordion-arrow"></span>
+
+                </h2>
+
+                <p>
+                    Nếu khách hàng có câu hỏi, yêu cầu hoặc khiếu nại
+                    liên quan đến chính sách bảo mật, vui lòng liên hệ:
+                </p>
+
+
+                <div class="contact-box">
+
+                    <h3>
+                        Cho Thuê Xe Máy Măng Đen Anh Huy
+                    </h3>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Đơn vị:
+                        </span>
+
+                        <span>
+                            Cho Thuê Xe Máy Măng Đen Anh Huy
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Địa chỉ:
+                        </span>
+
+                        <span>
+                            30 Võ Thị Sáu, Măng Đen,
+                            Kon Plông, Kon Tum, Việt Nam
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Điện thoại:
+                        </span>
+
+                        <a href="tel:0972726999">
+                            0972 726 999
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Email:
+                        </span>
+
+                        <a href="mailto:thuexemaymangden@gmail.com">
+                            thuexemaymangden@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <p style="margin-top:20px;">
+
+                    Chúng tôi luôn sẵn sàng tiếp nhận và xử lý các yêu cầu
+                    liên quan đến quyền riêng tư và bảo vệ thông tin cá nhân
+                    của khách hàng.
+
+                </p>
+
+            </section>
+
+
+        </article>
+
+    </div>
+
+
+    <div class="privacy-footer">
+
+        © 2026 Cho Thuê Xe Máy Măng Đen Anh Huy.
+        Bảo lưu mọi quyền.
+
+    </div>
+
+</main>
+
+
+<!-- =====================================================
+     ACCORDION JAVASCRIPT
+===================================================== -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const sections =
+        document.querySelectorAll(".privacy-section");
+
+    /*
+     * Chỉ kích hoạt accordion ở màn hình mobile.
+     */
+
+    function setupAccordion() {
+
+        sections.forEach(section => {
+
+            const title =
+                section.querySelector("h2");
+
+            if (!title) return;
+
+            /*
+             * Tránh gắn event nhiều lần
+             */
+
+            if (title.dataset.accordionReady === "true") {
+                return;
+            }
+
+            title.dataset.accordionReady = "true";
+
+
+            title.addEventListener("click", function () {
+
+                if (window.innerWidth > 900) {
+                    return;
+                }
+
+
+                /*
+                 * Đóng các mục khác
+                 */
+
+                sections.forEach(item => {
+
+                    if (item !== section) {
+                        item.classList.remove("active");
+                    }
+
+                });
+
+
+                /*
+                 * Mở / đóng mục hiện tại
+                 */
+
+                section.classList.toggle("active");
+
+            });
+
+        });
+
+    }
+
+
+    setupAccordion();
+
+
+    /*
+     * Khi thay đổi kích thước màn hình
+     */
+
+    window.addEventListener("resize", function () {
+
+        if (window.innerWidth > 900) {
+
+            sections.forEach(section => {
+                section.classList.remove("active");
+            });
+
+        }
+
+    });
+
+
+    /*
+     * Nếu người dùng mở một mục trên mobile,
+     * tự cuộn nhẹ để tiêu đề không bị khuất.
+     */
+
+    sections.forEach(section => {
+
+        section.addEventListener("transitionend", function () {
+
+            if (
+                window.innerWidth <= 900 &&
+                section.classList.contains("active")
+            ) {
+
+                const rect =
+                    section.getBoundingClientRect();
+
+                if (rect.top < 20) {
+
+                    window.scrollBy({
+                        top: rect.top - 20,
+                        behavior: "smooth"
+                    });
+
+                }
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+
+
+</body>
+</html>
