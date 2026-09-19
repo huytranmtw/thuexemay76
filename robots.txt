@@ -5,4 +5,4 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
 
-Sitemap: https://thuexemangden.vn/sitemap.xml
+Sitemap: https://thuexemaymangden.vn/sitemap.xml
